@@ -126,9 +126,3 @@ Key settings in `pwscrape/settings.py`:
 
 ---
 
-## Limitations & Future Improvements
-
-- **Accuracy** — keyword matching is the current classification method; a trained classifier or LLM-based approach would improve precision on edge cases.
-- **Sitemap navigation** — some sites organize reports under sitemap paths that the current link-following strategy misses.
-- **Year tab toggling** — paginated report archives that split documents across year tabs are not yet handled.
-- **URL validation** — adding a path-based check to confirm the spider has actually reached a reports page (rather than a general IR landing page) would reduce false positives.
